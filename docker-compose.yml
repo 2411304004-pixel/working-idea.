@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:7.0
+    container_name: cow-mongodb
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: cafe_on_wheels
+    volumes:
+      - mongo-data:/data/db
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: cow-backend
+    restart: always
+    ports:
+      - "8000:8000"
+    environment:
+      - MONGODB_URI=mongodb://mongodb:27017
+      - MONGODB_DB_NAME=cafe_on_wheels
+      - JWT_SECRET_KEY=c4fe-0n-wh33ls-sup3r-s3cur3-jwt-k3y-2026-luxury-noir
+      - PAYU_MERCHANT_KEY=gtKFFx
+      - PAYU_MERCHANT_SALT=eCwWELxi
+      - PAYU_BASE_URL=https://test.payu.in/_payment
+      - FRONTEND_URL=http://localhost:5173
+    depends_on:
+      - mongodb
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: cow-frontend
+    restart: always
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_URL=http://backend:8000
+    depends_on:
+      - backend
+
+volumes:
+  mongo-data:

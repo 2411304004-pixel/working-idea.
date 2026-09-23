@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "tertiary-fixed-dim": "#cdc5be", "on-secondary-fixed-variant": "#1b4f43", "error": "#ba1a1a", "primary-fixed-dim": "#ffb5a1", "inverse-surface": "#31302d", "surface-bright": "#fdf9f4", "secondary-fixed": "#b8eedc", "surface-variant": "#e6e2dd", "primary-fixed": "#ffdbd1", "tertiary": "#615b55", "surface-container": "#f1ede8", "on-primary-container": "#fffbff", "surface-container-lowest": "#ffffff", "surface": "#fdf9f4", "outline": "#8c716a", "on-primary-fixed": "#3b0900", "on-primary-fixed-variant": "#882000", "inverse-on-surface": "#f4f0eb", "on-error-container": "#93000a", "tertiary-container": "#7a736d", "on-background": "#1c1c19", "secondary": "#35675a", "outline-variant": "#e0bfb7", "on-surface": "#1c1c19", "primary-container": "#c94b28", "inverse-primary": "#ffb5a1", "on-secondary-fixed": "#002019", "surface-container-high": "#ebe8e3", "on-tertiary": "#ffffff", "error-container": "#ffdad6", "on-secondary": "#ffffff", "secondary-container": "#b8eedc", "background": "#fdf9f4", "on-error": "#ffffff", "surface-container-highest": "#e6e2dd", "secondary-fixed-dim": "#9dd1c1", "tertiary-fixed": "#eae1d9", "on-tertiary-fixed-variant": "#4b4640", "on-primary": "#ffffff", "on-surface-variant": "#58413b", "on-tertiary-container": "#fffbff", "surface-container-low": "#f7f3ee", "on-tertiary-fixed": "#1f1b16", "primary": "#a73412", "surface-tint": "#aa3614", "surface-dim": "#ddd9d5", "on-secondary-container": "#3b6d60" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-lg": "1.5rem", "gutter": "1rem", "margin": "1rem", "margin-desktop": "3rem", "gutter-desktop": "1.5rem", "space-md": "1rem", "space-xl": "2.5rem", "space-sm": "0.5rem", "margin-tablet": "2rem", "space-xs": "0.25rem" }, "fontFamily": { "label-sm": ["Plus Jakarta Sans"], "headline-display-mobile": ["Plus Jakarta Sans"], "headline-display": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"] }, "fontSize": { "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" }], "headline-display-mobile": ["36px", { "lineHeight": "42px", "letterSpacing": "-0.025em", "fontWeight": "800" }], "headline-display": ["48px", { "lineHeight": "54px", "letterSpacing": "-0.03em", "fontWeight": "800" }], "label-md": ["13px", { "lineHeight": "16px", "letterSpacing": "0.01em", "fontWeight": "600" }], "headline-sm": ["20px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-md": ["24px", { "lineHeight": "30px", "letterSpacing": "-0.015em", "fontWeight": "700" }], "body-lg": ["18px", { "lineHeight": "28px", "letterSpacing": "-0.005em", "fontWeight": "400" }], "body-md": ["15px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "400" }], "headline-lg": ["32px", { "lineHeight": "38px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-sm": ["13px", { "lineHeight": "18px", "letterSpacing": "0em", "fontWeight": "400" }], "label-lg": ["15px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 px-gutter flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="Cafe on Wheels Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYDezDgCs99X_IE_gsJx4OP4dco2XVi0yMUHlqwXlLqXbHm3rBNE9la4E_io9134dz-4RAQ5BVUCL0RLFYEoQF0CGZwOLXvvJAja3JUquQ9b7FqMeaHKf7ogy618AidqYy58AO80JRuEISwUd9B7HQe8D3tH9MZBqzs4xdvVYp6Q7AYxKXcBWaSJWSaaiy-oqpSJnavTravDR-38ogC0K7NaHkjsjzrWUOsOb7LEcj-6WEqQpls8WE"/><div class="flex flex-col"><div class="flex items-center gap-1.5"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight leading-none">Cafe on Wheels</span></div><div class="flex items-center gap-1 mt-0.5"><span class="inline-flex items-center px-1.5 py-0.5 rounded-full bg-secondary/10 text-secondary font-label-sm text-label-sm">📍 Serving Metro &amp; Coastline</span></div></div></div><div class="flex items-center gap-space-xs"><button aria-label="Notifications" class="w-11 h-11 flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[22px]">notifications</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center ml-1"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full pt-20 pb-24 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Top Visual Caravan Banner & Stage Flow -->
+<div class="px-gutter pt-space-sm pb-space-md">
+<!-- Stepper Indicator -->
+<div class="bg-surface-container-low rounded-xl p-space-md shadow-sm">
+<div class="flex items-center justify-between mb-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-primary text-on-primary font-label-sm text-label-sm">3</span>
+<span class="font-label-lg text-label-lg text-on-surface">Step 3 of 3: Menu &amp; Pre-Order</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-container px-2 py-0.5 rounded-full font-bold flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary animate-pulse"></span> Caravan Ready
+        </span>
+</div>
+<!-- Progress Bar (Step 3/3 = 100%) -->
+<div class="w-full h-1.5 bg-surface-variant rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full w-full"></div>
+</div>
+<div class="flex justify-between items-center mt-2 text-on-surface-variant font-label-sm text-label-sm">
+<span class="opacity-60">1. Route Stop</span>
+<span class="opacity-60">2. Boho Styling</span>
+<span class="text-primary font-bold">3. Curated Menu</span>
+</div>
+</div>
+</div>
+<!-- Warm Editorial Intro Card with Atmosphere Preview -->
+<div class="px-gutter mb-space-md">
+<div class="relative overflow-hidden rounded-xl bg-surface-container shadow-sm p-space-md">
+<div class="flex items-start gap-space-md">
+<div class="w-20 h-20 rounded-lg overflow-hidden flex-shrink-0 bg-surface-variant shadow-inner">
+<img class="w-full h-full object-cover" data-alt="Artisanal vintage camper espresso bar styled with warm wood counters, hanging fairy festoon lights, and ceramic mugs in golden evening light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNTpmAc-mDR14sWEUoHsMmxh3LN4IGJ2pAS0YaOw43J79mEwb0zu-llyG2w06Zl2PatkPP5T5HmSsMvZ9wYnq_4OaWYtkYsmODIBXucACVvPgwkW_MM9iTEUO3dj3hC2VxDXFrcgBPhsUmuN8kYZ-KtSHyx63SoDMYPbzBSqgj2BBs01cJiEE0LJAl8JNCA16Z-Tb4MBGLEhB_mqQ3NtobBfP20KVSVNYrXf98wQBQex_8F1XScxQY"/>
+</div>
+<div class="flex-1 min-w-0">
+<div class="inline-flex items-center gap-1 text-secondary font-label-sm text-label-sm bg-surface-container-lowest px-2 py-0.5 rounded-full shadow-xs mb-1">
+<span class="material-symbols-outlined text-[14px]">local_cafe</span> Freshly Roasted Daily
+          </div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface leading-snug">Artisanal Barista Bar</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5 line-clamp-2">Pre-order seasonal single-origins, warm pastries, and celebratory boards ahead of caravan arrival.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Category Filter Pills (Horizontal Scroll) -->
+<div class="mb-space-md">
+<div class="flex gap-2 overflow-x-auto px-gutter pb-1 no-scrollbar items-center">
+<button class="px-4 py-2 rounded-full bg-on-surface text-surface font-label-md text-label-md flex-shrink-0 shadow-sm transition-transform active:scale-95">All Items (5)</button>
+<button class="px-4 py-2 rounded-full bg-surface-container text-on-surface font-label-md text-label-md flex-shrink-0 hover:bg-surface-container-high transition-colors">Signature Espresso</button>
+<button class="px-4 py-2 rounded-full bg-surface-container text-on-surface font-label-md text-label-md flex-shrink-0 hover:bg-surface-container-high transition-colors">Cold Brew &amp; Tonics</button>
+<button class="px-4 py-2 rounded-full bg-surface-container text-on-surface font-label-md text-label-md flex-shrink-0 hover:bg-surface-container-high transition-colors">Pastries &amp; Bites</button>
+<button class="px-4 py-2 rounded-full bg-surface-container text-on-surface font-label-md text-label-md flex-shrink-0 hover:bg-surface-container-high transition-colors">Celebration Platters</button>
+</div>
+</div>
+<!-- Menu Item List -->
+<div class="px-gutter flex flex-col gap-space-md pb-4">
+<!-- Item 1: Smoked Honey Cinnamon Cortado -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm transition-all">
+<div class="flex gap-space-md">
+<div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Artisanal cortado coffee in a ribbed ceramic tumbler with velvety foam, dusted with freshly grated cinnamon stick and a drizzle of raw smoked honey, natural sunny morning lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAEtJBSmsqDmrElp_3F7e7rNaS8G61AZ5GgoEBojAhSZ3dCssDGqYgrUHI9jql6Awwm7sfNdTXu3aXZeI_wU7i2d8lmjfwDg5PDTPJ9-XHAhRmGsD0Bo6nVxaBeYvlNhsvBgdJcjWExkro3_ic_QrE44VuQyngIw0_M9EUI4NvDhmfykkuP28vjmkgTJivkPbSKJ74zfmU_hCWZbuk0WYsYAlBCpCdOOwUYZxFcjb1zaYnESdZP-UlG"/>
+</div>
+<div class="flex flex-col flex-1 min-w-0 justify-between">
+<div>
+<div class="flex items-start justify-between gap-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface leading-tight truncate">Smoked Honey Cortado</h3>
+<span class="font-headline-sm text-headline-sm text-primary flex-shrink-0">$6.50</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-0.5">Double shot espresso, steamed oat milk, raw smoked mountain honey, toasted cinnamon.</p>
+</div>
+<div class="flex flex-wrap gap-1 mt-1">
+<span class="font-label-sm text-label-sm bg-secondary-container text-secondary px-1.5 py-0.5 rounded">Oat Milk Opt</span>
+<span class="font-label-sm text-label-sm bg-surface-container text-on-surface-variant px-1.5 py-0.5 rounded">GF</span>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between mt-space-sm pt-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-primary">verified</span> Barista favorite
+        </span>
+<!-- Stepper -->
+<div class="flex items-center bg-surface-container-high rounded-full p-1 shadow-xs">
+<button class="w-7 h-7 rounded-full bg-surface-container-lowest text-on-surface flex items-center justify-center hover:bg-surface-variant active:scale-90 transition-transform">
+<span class="material-symbols-outlined text-[16px]">remove</span>
+</button>
+<span class="font-headline-sm text-headline-sm text-on-surface px-3 min-w-[28px] text-center">2</span>
+<button class="w-7 h-7 rounded-full bg-primary text-on-primary flex items-center justify-center hover:bg-primary-container active:scale-90 transition-transform shadow-xs">
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Item 2: Cardamom Rose Latte -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm transition-all">
+<div class="flex gap-space-md">
+<div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Warm Cardamom Rose specialty latte topped with organic dried rose petals, delicate swan latte art, served on a sunlit reclaimed wood tabletop beside vintage camper caravan" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4yjlUhK3Tjl1xw-KmUt3qVfW4qQ3kCn8Q0mVDYQAXiXaEFHl6d2Ebv-qxMUEr2WNnw5BHiAgcnK4nKTyJ0D0VpEYf8RBZkjjfBegspk3qMXmf9eVkJWUH7XYPFGrmzIiE3I_9ekDwqYsrWkk8Ln68dPmWp5fxRZVh49RohVo83PNYcMJK2syna2kHIoftkRCSIryxa6NAFJocIDfFGD0tOP_rpLClDJ6Pj9j-cRgy-HfdLlBZ7Rll"/>
+</div>
+<div class="flex flex-col flex-1 min-w-0 justify-between">
+<div>
+<div class="flex items-start justify-between gap-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface leading-tight truncate">Cardamom Rose Latte</h3>
+<span class="font-headline-sm text-headline-sm text-primary flex-shrink-0">$7.00</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-0.5">Single-origin espresso, microfoamed organic milk, steeped cardamom &amp; house floral syrup.</p>
+</div>
+<div class="flex flex-wrap gap-1 mt-1">
+<span class="font-label-sm text-label-sm bg-secondary-container text-secondary px-1.5 py-0.5 rounded">Vegan Opt</span>
+<span class="font-label-sm text-label-sm bg-surface-container text-on-surface-variant px-1.5 py-0.5 rounded">GF</span>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between mt-space-sm pt-space-xs">
+<span class="font-label-sm text-label-sm text-secondary flex items-center gap-1 font-semibold">
+<span class="material-symbols-outlined text-[16px]">spa</span> House Signature
+        </span>
+<!-- Stepper -->
+<div class="flex items-center bg-surface-container-high rounded-full p-1 shadow-xs">
+<button class="w-7 h-7 rounded-full bg-surface-container-lowest text-on-surface flex items-center justify-center hover:bg-surface-variant active:scale-90 transition-transform">
+<span class="material-symbols-outlined text-[16px]">remove</span>
+</button>
+<span class="font-headline-sm text-headline-sm text-on-surface px-3 min-w-[28px] text-center">2</span>
+<button class="w-7 h-7 rounded-full bg-primary text-on-primary flex items-center justify-center hover:bg-primary-container active:scale-90 transition-transform shadow-xs">
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Item 3: Pistachio Kouign-Amann -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm transition-all">
+<div class="flex gap-space-md">
+<div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Golden caramelized Kouign-Amann pastry with flaky golden laminated layers, sprinkled with chopped bright green roasted pistachios, natural editorial food photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDp_ub2dPtHlGkZpreJXYZf9lfJlNsb4K7xg_bQAyNSQUMxI1A8ljBDPT2-QQVrBVvqKejZq4dNq4ex-s3bJLQpTsx71XX3Dg8WfRv5D2TrEOZv64NG0MrAD0vtWluAO6WjYMd5GUpNPPItrs--vQ0UfWrOsXdsOuh1g8ONEhfWmoZvcODQ2RQTDGyra5phjMkkfkGFsYGP5gLZAhS03qmYY0XReIehrKOOg2Tx3TKx6GwljLIZlAPn"/>
+</div>
+<div class="flex flex-col flex-1 min-w-0 justify-between">
+<div>
+<div class="flex items-start justify-between gap-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface leading-tight truncate">Pistachio Kouign-Amann</h3>
+<span class="font-headline-sm text-headline-sm text-primary flex-shrink-0">$5.50</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-0.5">Flaky, caramelized spiral pastry filled with roasted crushed pistachios and salted butter.</p>
+</div>
+<div class="flex flex-wrap gap-1 mt-1">
+<span class="font-label-sm text-label-sm bg-surface-container text-on-surface-variant px-1.5 py-0.5 rounded">Fresh Baked Today</span>
+<span class="font-label-sm text-label-sm bg-tertiary-fixed text-on-tertiary-fixed-variant px-1.5 py-0.5 rounded">Contains Nuts</span>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between mt-space-sm pt-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-primary">bakery_dining</span> Only 12 batches left
+        </span>
+<!-- Stepper -->
+<div class="flex items-center bg-surface-container-high rounded-full p-1 shadow-xs">
+<button class="w-7 h-7 rounded-full bg-surface-container-lowest text-on-surface flex items-center justify-center hover:bg-surface-variant active:scale-90 transition-transform">
+<span class="material-symbols-outlined text-[16px]">remove</span>
+</button>
+<span class="font-headline-sm text-headline-sm text-on-surface px-3 min-w-[28px] text-center">4</span>
+<button class="w-7 h-7 rounded-full bg-primary text-on-primary flex items-center justify-center hover:bg-primary-container active:scale-90 transition-transform shadow-xs">
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Item 4: Artisanal Celebration Grazing Board -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm transition-all">
+<div class="flex gap-space-md">
+<div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Lush artisanal celebration grazing board on dark rustic wood plank with artisan aged cheddar, fresh honeycomb, ripe figs, blackberries, prosciutto, and seeded crackers in outdoor event setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOKif63lGbkEb5RiQcFqHosI6qhDRX5EaBLQOFUzJQtKvpNr9cg-HHxo-AQqa7kPy-pXgQmgtcHmuJj6Z5XI75snmlLlktfa2F-1L3a9NBQNg8Me8tb1SxCOFwzLqu3c66yTYR_yWKai29Ud3vR8UbpOzQvCVQu-X5MQOvB_0TcSuWhDwx5119jdqPRhT8nOrhKCUg99cYPa40BbImeMrUGQOLXmX-eZ1dksiu2TnOtlkmVSEo30KW"/>
+</div>
+<div class="flex flex-col flex-1 min-w-0 justify-between">
+<div>
+<div class="flex items-start justify-between gap-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface leading-tight truncate">Celebration Grazing Board</h3>
+<span class="font-headline-sm text-headline-sm text-primary flex-shrink-0">$38.00</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-0.5">Local artisan cheeses, honeycomb, seasonal berries, seeded crisps, organic grapes. Serves 4-6.</p>
+</div>
+<div class="flex flex-wrap gap-1 mt-1">
+<span class="font-label-sm text-label-sm bg-secondary-container text-secondary px-1.5 py-0.5 rounded">Catering Platter</span>
+<span class="font-label-sm text-label-sm bg-surface-container text-on-surface-variant px-1.5 py-0.5 rounded">GF Crackers Inc.</span>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between mt-space-sm pt-space-xs">
+<span class="font-label-sm text-label-sm text-secondary flex items-center gap-1 font-bold">
+<span class="material-symbols-outlined text-[16px]">celebration</span> Party Platter
+        </span>
+<!-- Stepper -->
+<div class="flex items-center bg-surface-container-high rounded-full p-1 shadow-xs">
+<button class="w-7 h-7 rounded-full bg-surface-container-lowest text-on-surface flex items-center justify-center hover:bg-surface-variant active:scale-90 transition-transform">
+<span class="material-symbols-outlined text-[16px]">remove</span>
+</button>
+<span class="font-headline-sm text-headline-sm text-on-surface px-3 min-w-[28px] text-center">1</span>
+<button class="w-7 h-7 rounded-full bg-primary text-on-primary flex items-center justify-center hover:bg-primary-container active:scale-90 transition-transform shadow-xs">
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Item 5: Champagne & Sparkling Cold Brew Flight -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm transition-all opacity-90">
+<div class="flex gap-space-md">
+<div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Tasting flight of three stemmed crystal glasses of sparkling nitro cold brew coffee and champagne garnished with citrus peel on an olive wood tasting flight tray" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5tKffKsLwTJQavso4dIXlxBl0gORdXqNi3TklaHYvr_JINdsmvTC6Yjs9PNLST2fT8BtJ19C7LcV3i_eJQ0qKSjWq-r2AHoTZarUgfCAeHVpZvRRfDZNfbg-t56oq6HAx98uXI3FuJxZBsTbX4uzkOM-IMnIdS1p-FZf15X6bVBUjco4rqiCdsXvscPO9IAIx-557zWyWSVjFBKc_sSwCtVl2z-U3609KgJM2RtA5tOl2fw5i1KMB"/>
+</div>
+<div class="flex flex-col flex-1 min-w-0 justify-between">
+<div>
+<div class="flex items-start justify-between gap-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface leading-tight truncate">Champagne &amp; Cold Brew Flight</h3>
+<span class="font-headline-sm text-headline-sm text-primary flex-shrink-0">$24.00</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-0.5">3 miniature tasting pours: Sparkling Blood Orange Cold Brew, Espresso Spritz, French Roast Cuvee.</p>
+</div>
+<div class="flex flex-wrap gap-1 mt-1">
+<span class="font-label-sm text-label-sm bg-surface-container text-on-surface-variant px-1.5 py-0.5 rounded">Tasting Experience</span>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between mt-space-sm pt-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-primary">wine_bar</span> Optional Add-on
+        </span>
+<button class="px-4 py-1.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-primary hover:text-on-primary transition-all flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">add</span> Add Flight
+        </button>
+</div>
+</div>
+</div>
+<!-- Barista Customization & Special Notes -->
+<div class="px-gutter mb-space-md">
+<div class="bg-surface-container-low rounded-xl p-space-md shadow-sm">
+<div class="flex items-center justify-between mb-space-xs">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">edit_note</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Barista Instructions</h4>
+</div>
+<button class="font-label-sm text-label-sm text-primary underline font-bold">Edit</button>
+</div>
+<div class="bg-surface-container-lowest rounded-lg p-space-sm flex items-start gap-2 shadow-xs">
+<span class="material-symbols-outlined text-secondary text-[18px] mt-0.5">format_quote</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          "Milk preference: <span class="text-on-surface font-semibold">Oat milk for all lattes</span> • <span class="text-on-surface font-semibold">1 Decaf Cortado</span> with light honey. Serving around 2:15 PM."
+        </p>
+</div>
+</div>
+</div>
+<!-- Sticky Order & Itinerary Breakdown Section -->
+<div class="px-gutter pb-6">
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-md">
+<!-- Caravan Itinerary Reminder -->
+<div class="flex items-center justify-between pb-space-sm mb-space-sm">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-secondary/15 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[18px]">rv_hookup</span>
+</div>
+<div>
+<div class="font-label-md text-label-md text-on-surface">Oceanview Bluff • Spot 4B</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Arrival: 1:45 PM • Service: 2:00 - 4:00 PM</div>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-container px-2 py-0.5 rounded-full font-bold">Confirmed</span>
+</div>
+<!-- Itemized Receipt -->
+<div class="space-y-2 mb-space-md text-body-md font-body-md">
+<div class="flex justify-between items-center text-on-surface-variant">
+<span>Curated Menu Items (7 total)</span>
+<span class="text-on-surface font-medium">$94.00</span>
+</div>
+<div class="flex justify-between items-center text-on-surface-variant">
+<span class="flex items-center gap-1">Bohemian Festoon &amp; Theme Setup</span>
+<span class="text-on-surface font-medium">$65.00</span>
+</div>
+<div class="flex justify-between items-center text-on-surface-variant">
+<span>Vintage Caravan Travel &amp; Barista Crew</span>
+<span class="text-on-surface font-medium">$50.00</span>
+</div>
+<div class="flex justify-between items-center text-secondary font-label-md text-label-md pt-1">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">sell</span> Promo "COASTALVIBES"
+          </span>
+<span>-$0.00</span>
+</div>
+</div>
+<!-- Discount Input Row -->
+<div class="flex gap-2 mb-space-md">
+<div class="relative flex-1">
+<input class="w-full bg-surface-container-low text-on-surface font-body-sm text-body-sm rounded-xl px-3 py-2.5 outline-none focus:bg-surface-container transition-colors placeholder:text-outline" placeholder="Add voucher or gift code" type="text"/>
+</div>
+<button class="px-4 py-2.5 rounded-xl bg-surface-container text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors active:scale-95">Apply</button>
+</div>
+<!-- Total & Action Button -->
+<div class="pt-space-sm mb-space-md flex justify-between items-baseline">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block">Total Due</span>
+<span class="font-headline-lg text-headline-lg text-on-surface tracking-tight font-extrabold">$209.00</span>
+</div>
+<div class="text-right">
+<span class="font-label-sm text-label-sm text-secondary font-bold flex items-center justify-end gap-1">
+<span class="material-symbols-outlined text-[14px]">shield</span> All-inclusive pricing
+          </span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Taxes &amp; travel service included</span>
+</div>
+</div>
+<!-- Primary Terracotta CTA -->
+<button class="w-full py-4 px-6 rounded-full bg-primary text-on-primary font-headline-sm text-headline-sm shadow-md hover:bg-primary-container hover:shadow-lg transition-all active:scale-[0.98] flex items-center justify-center gap-2 group">
+<span>Confirm &amp; Dispatch Van ($209.00)</span>
+<span class="material-symbols-outlined text-[20px] transition-transform group-hover:translate-x-1">arrow_forward</span>
+</button>
+<!-- Assurance Badges -->
+<div class="flex items-center justify-center gap-2 text-center mt-3 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary">update</span>
+<span>Free cancellation or reschedule up to 4 hrs prior</span>
+</div>
+</div>
+</div>
+</div>
+<script>
+  // Simple micro-interactions for stepper buttons and interactive feel
+  document.querySelectorAll('button').forEach(btn => {
+    btn.addEventListener('click', function(e) {
+      if (this.querySelector('.material-symbols-outlined')?.textContent === 'add' ||
+          this.querySelector('.material-symbols-outlined')?.textContent === 'remove') {
+        const countSpan = this.parentElement.querySelector('span:not(.material-symbols-outlined)');
+        if (countSpan) {
+          let count = parseInt(countSpan.textContent, 10);
+          if (this.querySelector('.material-symbols-outlined').textContent === 'add') {
+            count += 1;
+          } else if (count > 0) {
+            count -= 1;
+          }
+          countSpan.textContent = count;
+        }
+      }
+    });
+  });
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/80 backdrop-blur-xl shadow-[0_-4px_20px_rgba(92,70,52,0.06)]" data-active-classes="text-primary font-bold"><div class="flex justify-around items-center h-16 px-gutter"><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] text-on-surface-variant hover:text-on-surface transition-colors" data-path="explore" href="#"><span class="material-symbols-outlined text-[24px]">explore</span><span class="font-label-sm text-label-sm">Explore</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] text-on-surface-variant hover:text-on-surface transition-colors" data-path="theme" href="#"><span class="material-symbols-outlined text-[24px]">palette</span><span class="font-label-sm text-label-sm">Theme</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] text-on-surface-variant hover:text-on-surface transition-colors" data-path="route" href="#"><span class="material-symbols-outlined text-[24px]">route</span><span class="font-label-sm text-label-sm">Route</span></a><a aria-current="page" class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] transition-colors text-primary font-bold" data-path="menu" href="#"><span class="material-symbols-outlined text-[24px]">coffee</span><span class="font-label-sm text-label-sm">Menu</span></a></div></nav></body></html>

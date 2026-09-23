@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-container-low":"#f7f3ee","surface-container-high":"#ebe8e3","primary-fixed-dim":"#ffb5a1","on-tertiary-container":"#fffbff","surface-container":"#f1ede8","surface-variant":"#e6e2dd","secondary":"#35675a","tertiary-container":"#7a736d","on-primary-container":"#fffbff","secondary-fixed":"#b8eedc","on-primary-fixed-variant":"#882000","outline-variant":"#e0bfb7","error-container":"#ffdad6","surface-container-lowest":"#ffffff","tertiary-fixed":"#eae1d9","on-primary-fixed":"#3b0900","surface":"#fdf9f4","background":"#fdf9f4","secondary-container":"#b8eedc","on-secondary-fixed-variant":"#1b4f43","tertiary-fixed-dim":"#cdc5be","on-tertiary-fixed-variant":"#4b4640","primary-fixed":"#ffdbd1","inverse-primary":"#ffb5a1","primary-container":"#c94b28","on-surface-variant":"#58413b","on-primary":"#ffffff","surface-container-highest":"#e6e2dd","on-surface":"#1c1c19","inverse-surface":"#31302d","on-tertiary":"#ffffff","on-error":"#ffffff","error":"#ba1a1a","inverse-on-surface":"#f4f0eb","tertiary":"#615b55","on-tertiary-fixed":"#1f1b16","on-background":"#1c1c19","on-secondary-fixed":"#002019","surface-bright":"#fdf9f4","primary":"#a73412","surface-dim":"#ddd9d5","on-error-container":"#93000a","secondary-fixed-dim":"#9dd1c1","on-secondary-container":"#3b6d60","outline":"#8c716a","on-secondary":"#ffffff","surface-tint":"#aa3614"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"margin-desktop":"3rem",gutter:"1rem","gutter-desktop":"1.5rem","space-md":"1rem",margin:"1rem","space-sm":"0.5rem","space-xs":"0.25rem","margin-tablet":"2rem","space-xl":"2.5rem","space-lg":"1.5rem"},fontFamily:{"label-lg":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"headline-display":["Plus Jakarta Sans"],"headline-display-mobile":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"]},fontSize:{"label-lg":["15px",{lineHeight:"20px",letterSpacing:"0.01em",fontWeight:"600"}],"headline-sm":["20px",{lineHeight:"26px",letterSpacing:"-0.01em",fontWeight:"600"}],"body-lg":["18px",{lineHeight:"28px",letterSpacing:"-0.005em",fontWeight:"400"}],"headline-md":["24px",{lineHeight:"30px",letterSpacing:"-0.015em",fontWeight:"700"}],"body-sm":["13px",{lineHeight:"18px",letterSpacing:"0em",fontWeight:"400"}],"body-md":["15px",{lineHeight:"24px",letterSpacing:"0em",fontWeight:"400"}],"headline-lg":["32px",{lineHeight:"38px",letterSpacing:"-0.02em",fontWeight:"700"}],"headline-display":["48px",{lineHeight:"54px",letterSpacing:"-0.03em",fontWeight:"800"}],"headline-display-mobile":["36px",{lineHeight:"42px",letterSpacing:"-0.025em",fontWeight:"800"}],"label-md":["13px",{lineHeight:"16px",letterSpacing:"0.01em",fontWeight:"600"}],"label-sm":["11px",{lineHeight:"14px",letterSpacing:"0.04em",fontWeight:"700"}]}}}};</script></head><body class="bg-background font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1200px] mx-auto px-gutter-desktop flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><a class="flex items-center gap-space-sm" data-path="home" href="#"><img alt="Minimalist modern logo mark for 'Cafe on Wheels'. A sleek stylized espresso cup combined cleanly with rolling wheels and clean geometric lines. Elegant, vector style, deep charcoal #1A1A1A and terracotta #E8623D accents on a transparent background.. Design context: - Primary color: #e8623d
+- Font: plusJakartaSans
+- Mode: light
+- Roundness: rounded-md
+. The logo should be visually consistent with these brand tokens." class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WPY8E5TSvn21UBeyiIhaCRr-xG-ag27fE6cy8APJvHLjDS54fYM6HlZe4crVIRnP3kKmw-i7DgeZHIlTzq3GHlXz7smfH5QqMvu9dZn7xWL_Y7w1s-XquJvcocDK9Mv7LFHGRM5PepwWy6b9EdB0W8FXNPWht0pD4_Ck5HYcfzJ42QqsGAyiiFV_Vuacc4BdZAYJAyO7csLjZ1lljNwErDCWs7ShMXTFbkw8zrULorNpg7fahVv395kA"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">Cafe on Wheels</span></a></div><nav class="hidden xl:flex items-center gap-space-xs p-1 rounded-full bg-surface-container-low/60" data-active-classes="bg-surface-container-high text-on-surface font-bold rounded-full"><a class="px-4 py-2 rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="home" href="#">Home</a><a aria-current="page" class="px-4 py-2 transition-all bg-surface-container-high text-on-surface font-bold rounded-full" data-path="themes" href="#">Themes</a><a class="px-4 py-2 rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="route-planner" href="#">Route Planner</a><a class="px-4 py-2 rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="menu" href="#">Menu</a><a class="px-4 py-2 rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="bookings" href="#">Bookings</a><a class="px-4 py-2 rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="my-account" href="#">My Account</a></nav><div class="flex items-center gap-space-md shrink-0"><a class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-primary text-on-primary font-label-lg text-label-lg shadow-sm hover:brightness-105 transition-all" data-path="booking-experience" href="#">Book Your Experience</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full">
+<!-- Active Theme Bar / Selected Experience Banner -->
+<section class="w-full bg-surface-container-low px-gutter-desktop py-space-md shadow-sm">
+<div class="max-w-[1200px] mx-auto flex flex-col md:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-secondary/15 flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[24px]">palette</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs">
+<span class="inline-block w-2.5 h-2.5 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Curated Experience Selected</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-on-surface tracking-tight" id="selectedThemeDisplayTitle">Proposal &amp; Sunset Romance</p>
+</div>
+</div>
+<div class="flex items-center gap-space-md w-full md:w-auto justify-end">
+<div class="hidden sm:flex flex-col text-right">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Includes caravan staging + 2 baristas</span>
+<span class="font-label-lg text-label-lg text-primary" id="selectedThemeDisplayPrice">$420 / booking</span>
+</div>
+<a class="inline-flex items-center justify-center gap-space-xs px-6 py-3 rounded-full bg-primary text-on-primary font-label-lg text-label-lg shadow-md hover:brightness-105 transition-all" data-path="route-planner" href="#">
+<span>Next: Plan Route &amp; Stops</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Editorial Introduction & Filter Controls -->
+<section class="w-full px-gutter-desktop pt-space-xl pb-space-lg">
+<div class="max-w-[1200px] mx-auto flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="max-w-2xl flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Atmosphere &amp; Decor Curation</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Immersive Caravan Staging</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Every booking transforms our vintage two-tone caravan into a custom visual and sensory destination—tailored florals, curated music, handcrafted ceramics, and bespoke drink styling.</p>
+</div>
+<div class="flex items-center gap-space-xs self-start md:self-auto bg-surface-container px-3 py-1.5 rounded-full text-on-surface-variant font-label-md text-label-md">
+<span class="material-symbols-outlined text-[18px] text-secondary">verified</span>
+<span>Full Barista Setup Included</span>
+</div>
+</div>
+<!-- Filter Tabs -->
+<div class="flex items-center gap-space-xs overflow-x-auto py-1 scrollbar-none" id="themeFilterTabs">
+<button class="filter-tab px-5 py-2.5 rounded-full font-label-md text-label-md bg-on-surface text-surface shadow-sm transition-all" data-filter="all" type="button">All Themes (6)</button>
+<button class="filter-tab px-5 py-2.5 rounded-full font-label-md text-label-md bg-surface-container-lowest text-on-surface-variant shadow-sm hover:bg-surface-container-high transition-all" data-filter="romance" type="button">Romance &amp; Proposals</button>
+<button class="filter-tab px-5 py-2.5 rounded-full font-label-md text-label-md bg-surface-container-lowest text-on-surface-variant shadow-sm hover:bg-surface-container-high transition-all" data-filter="celebrations" type="button">Celebrations &amp; Birthdays</button>
+<button class="filter-tab px-5 py-2.5 rounded-full font-label-md text-label-md bg-surface-container-lowest text-on-surface-variant shadow-sm hover:bg-surface-container-high transition-all" data-filter="corporate" type="button">Corporate &amp; Gatherings</button>
+<button class="filter-tab px-5 py-2.5 rounded-full font-label-md text-label-md bg-surface-container-lowest text-on-surface-variant shadow-sm hover:bg-surface-container-high transition-all" data-filter="casual" type="button">Casual &amp; Picnics</button>
+</div>
+</div>
+</section>
+<!-- 3-Column Theme Grid -->
+<section class="w-full px-gutter-desktop pb-space-xl">
+<div class="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg" id="themesGrid">
+<!-- Card 1: Proposal & Romance (Selected State) -->
+<article class="theme-card relative rounded-2xl bg-surface-container-lowest p-5 flex flex-col justify-between shadow-md transition-all duration-300 ring-2 ring-primary" data-category="romance" data-theme-id="theme-romance">
+<div class="flex flex-col gap-space-md">
+<div class="relative w-full h-56 rounded-xl overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Vintage cream and mint mobile coffee van parked under a golden hour forest canopy decorated with delicate warm fairy lights, cascading blush floral bouquets, vintage champagne flutes on natural live edge wood counters, editorial aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-OfQKReQi1BOpLB21SCGFfqwSQBx34egjRTROVe5sIUcN68Jn2K1-ny489QzOWPcM6EI7DXd-oIG-NW4aiWXBqobjS-6uK_m8TFonRn3u3jgjH1wswXiPuPJB76SPLXXl8k-a2JRj9apS-wsqJB8G_Rl2KqK5CbdPMOfqwKXeL8ZQmshZw8qOcu9VI887ybR75ci1yrrA-4htCBkvUsheqP3hcHiXbtoYRaaXFjpb4Gne6aeedWj5"/>
+<div class="absolute top-3 left-3 bg-primary text-on-primary font-label-sm text-label-sm uppercase tracking-wider px-3 py-1 rounded-full shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">favorite</span>
+<span>Active Selection</span>
+</div>
+<div class="absolute bottom-3 right-3 bg-surface/90 backdrop-blur-md px-3 py-1 rounded-full font-label-sm text-label-sm text-on-surface">
+              Best for 2-15 guests
+            </div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-md text-headline-md text-on-surface">Proposal &amp; Romance</h3>
+<span class="font-label-lg text-label-lg text-primary">$420</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2">Intimate, dreamy atmosphere with delicate woven fairy strands, chilled prosecco flutes, blush floral bundles, and a handpicked acoustic playlist.</p>
+</div>
+<div class="flex flex-col gap-2 pt-1">
+<span class="font-label-sm text-label-sm text-tertiary uppercase tracking-wider">Decor Staging:</span>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Warm Edison Stringers</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Blush Ranunculus</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Champagne Flutes</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Bespoke Chalk Script</span>
+</div>
+</div>
+</div>
+<div class="mt-6 pt-4 flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Setup Time</span>
+<span class="font-label-md text-label-md text-on-surface">45 minutes prior</span>
+</div>
+<button class="select-btn px-5 py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-sm hover:brightness-105 transition-all" onclick="selectTheme('Proposal &amp; Romance', '$420 / booking', this)" type="button">
+            Selected
+          </button>
+</div>
+</article>
+<!-- Card 2: Golden Hour Birthday -->
+<article class="theme-card relative rounded-2xl bg-surface-container-lowest p-5 flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-300" data-category="celebrations" data-theme-id="theme-birthday">
+<div class="flex flex-col gap-space-md">
+<div class="relative w-full h-56 rounded-xl overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Charming vintage cafe caravan styled for an outdoor birthday party with handcrafted linen pennant bunting, confetti-dusted latte art cups, layered timber pastry boards with artisan eclairs, warm afternoon sunlight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKu54RQyQ1SChZ0ruNpbsap79iXkbUOq8h8CUytNeD3vzSq_T7cPTlxoADeWkM1yDCggOMdeWEcoyTL-mT5-KR3OULbmHw9oA3b-e1IZpQSOoIhvvLzsju7aKJUK0KywjZw_TL9t6-QdY3Q3C4L1uK47l8FRB1QHNO5PJ4jfvQdR7XxSHDdjslmm0JwB9JFr8iqvAwrKAHthnFSu_euCwUXDATENa8l3Mrh9NOtujuRaPSOV42Ejh-"/>
+<div class="absolute top-3 left-3 bg-surface/90 backdrop-blur-md text-on-surface font-label-sm text-label-sm uppercase tracking-wider px-3 py-1 rounded-full shadow-sm">
+              Celebration Special
+            </div>
+<div class="absolute bottom-3 right-3 bg-surface/90 backdrop-blur-md px-3 py-1 rounded-full font-label-sm text-label-sm text-on-surface">
+              Up to 60 guests
+            </div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-md text-headline-md text-on-surface">Golden Hour Birthday</h3>
+<span class="font-label-lg text-label-lg text-primary">$380</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2">Linen triangle bunting, vibrant edible flower latte garnishes, artisan sweet pastry boards, and celebration candle moments.</p>
+</div>
+<div class="flex flex-col gap-2 pt-1">
+<span class="font-label-sm text-label-sm text-tertiary uppercase tracking-wider">Decor Staging:</span>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Linen Pennant Bunting</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Confetti Latte Dusting</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">3-Tier Cake Stand</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Upbeat Indie Pop Track</span>
+</div>
+</div>
+</div>
+<div class="mt-6 pt-4 flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Setup Time</span>
+<span class="font-label-md text-label-md text-on-surface">30 minutes prior</span>
+</div>
+<button class="select-btn px-5 py-2 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-primary hover:text-on-primary transition-all" onclick="selectTheme('Golden Hour Birthday', '$380 / booking', this)" type="button">
+            Select This Theme
+          </button>
+</div>
+</article>
+<!-- Card 3: Artisanal Corporate Bar -->
+<article class="theme-card relative rounded-2xl bg-surface-container-lowest p-5 flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-300" data-category="corporate" data-theme-id="theme-corporate">
+<div class="flex flex-col gap-space-md">
+<div class="relative w-full h-56 rounded-xl overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" data-alt="High-end minimalist espresso setup inside a clean vintage mobile cafe van, sleek brushed stainless steel espresso machinery, fast batch-brew towers, pressed white linen aprons, professional corporate garden setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAb3KqYaCXi4Vj1bG8oCNKobRB-s6GQP69aWB6lF52NWgP9WUS594rhkelhAJxzZ-3Gj2Az7Lk4Pe5DcRzZfdRa_mlP2N4RJYoqmY5Z0lX3j0RTdt16qbaHPrFg2ibpZkrdDXe5klWHatKZxtEoMvksuKK6wCiNiNNyaiVjm0VYc-mv5pHfNpb9KjEcGCjGs7kQj_nAZvICt7JIEHCbwQlF-8Eqh00IYYKVUpmzpxbimPhkCLVfVHhj"/>
+<div class="absolute top-3 left-3 bg-secondary text-on-secondary font-label-sm text-label-sm uppercase tracking-wider px-3 py-1 rounded-full shadow-sm">
+              High Capacity Flow
+            </div>
+<div class="absolute bottom-3 right-3 bg-surface/90 backdrop-blur-md px-3 py-1 rounded-full font-label-sm text-label-sm text-on-surface">
+              50-250 guests
+            </div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-md text-headline-md text-on-surface">Artisanal Corporate Bar</h3>
+<span class="font-label-lg text-label-lg text-primary">$490</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2">Crisp, modern presentation tailored for launches, networking summits, and office courtyard activations with rapid dual-line flow.</p>
+</div>
+<div class="flex flex-col gap-2 pt-1">
+<span class="font-label-sm text-label-sm text-tertiary uppercase tracking-wider">Decor Staging:</span>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Matte Black Signage</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Nitro Cold Brew Tap</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Crisp Linen Service</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Fast QR Order Menus</span>
+</div>
+</div>
+</div>
+<div class="mt-6 pt-4 flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Setup Time</span>
+<span class="font-label-md text-label-md text-on-surface">60 minutes prior</span>
+</div>
+<button class="select-btn px-5 py-2 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-primary hover:text-on-primary transition-all" onclick="selectTheme('Artisanal Corporate Bar', '$490 / booking', this)" type="button">
+            Select This Theme
+          </button>
+</div>
+</article>
+<!-- Card 4: Coastal Boho Hangout -->
+<article class="theme-card relative rounded-2xl bg-surface-container-lowest p-5 flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-300" data-category="casual" data-theme-id="theme-boho">
+<div class="flex flex-col gap-space-md">
+<div class="relative w-full h-56 rounded-xl overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Laid-back bohemian mobile caravan cafe with macrame plant hangers, low natural wood picnic benches, woven jute rugs spread out on coastal grass, iced pour-over coffee bar, bright natural sunlight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4-l0bjLlup5pbzDvLappspRsMNpMFO_DW7jndrXVNWT8g5u-wFvSI5PpPGurOLO8hBLNlJqfapPelfMxuq9M_I7dnLVcBfSSgZuOsO6adKjubz3rQmcJlzOaFnWY5YVNkOHO_DAmwoFpibfk7EKmd4J-HaG8Q-rXjJrLikGN5nzQ3x79ZbbbSezyVYcLv2XbV5rq_XToyHkUsdgpv2M4Gay5SIaCRTmJObtg23xeGD4bl7OFIbfVQ"/>
+<div class="absolute top-3 left-3 bg-surface/90 backdrop-blur-md text-on-surface font-label-sm text-label-sm uppercase tracking-wider px-3 py-1 rounded-full shadow-sm">
+              Lounge Layout
+            </div>
+<div class="absolute bottom-3 right-3 bg-surface/90 backdrop-blur-md px-3 py-1 rounded-full font-label-sm text-label-sm text-on-surface">
+              15-40 guests
+            </div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-md text-headline-md text-on-surface">Coastal Boho Hangout</h3>
+<span class="font-label-lg text-label-lg text-primary">$390</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2">Relaxed picnic lounge vibe with floor cushions, macrame hanging accents, single-origin cold brews, and breezy organic charm.</p>
+</div>
+<div class="flex flex-col gap-2 pt-1">
+<span class="font-label-sm text-label-sm text-tertiary uppercase tracking-wider">Decor Staging:</span>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Woven Jute Rugs</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Floor Poufs &amp; Cushions</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Macrame Planters</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Chilled Cascara Bar</span>
+</div>
+</div>
+</div>
+<div class="mt-6 pt-4 flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Setup Time</span>
+<span class="font-label-md text-label-md text-on-surface">45 minutes prior</span>
+</div>
+<button class="select-btn px-5 py-2 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-primary hover:text-on-primary transition-all" onclick="selectTheme('Coastal Boho Hangout', '$390 / booking', this)" type="button">
+            Select This Theme
+          </button>
+</div>
+</article>
+<!-- Card 5: Vintage Italian Espresso -->
+<article class="theme-card relative rounded-2xl bg-surface-container-lowest p-5 flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-300" data-category="romance" data-theme-id="theme-italian">
+<div class="flex flex-col gap-space-md">
+<div class="relative w-full h-56 rounded-xl overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Rustic vintage Italian piazza style coffee caravan, terracotta ceramic espresso demitasses, a spinning vintage vinyl record player on wooden bar counter, platters of fresh pistachio cannoli, rich warm amber lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCvNEIS551DjRWR_p5HfRsximVl_6ayM8L_Dxj9tbWCPpDNXp7fSCYwRLhtFHohmsER24B0h9Zqym-4nhNl9Pj1AKxZ8P802LjGapXtpV1zm2MSq5Iw5uRzpe0HE_hvT5SuX_JE94WeEKgufS25rc3oABRcmKCW-IhHnsG34qM1IT6AWV76T6X6XbrD106UruojyTlEEYKL14n9ZWrzi0lqnIZGutIEkWnKw6TwUFPk1H0cyvKxL_oh"/>
+<div class="absolute top-3 left-3 bg-surface/90 backdrop-blur-md text-on-surface font-label-sm text-label-sm uppercase tracking-wider px-3 py-1 rounded-full shadow-sm">
+              Artisan Traditional
+            </div>
+<div class="absolute bottom-3 right-3 bg-surface/90 backdrop-blur-md px-3 py-1 rounded-full font-label-sm text-label-sm text-on-surface">
+              20-50 guests
+            </div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-md text-headline-md text-on-surface">Vintage Italian Espresso</h3>
+<span class="font-label-lg text-label-lg text-primary">$440</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2">Authentic European street cafe spirit with terracotta hand-thrown pottery, spinning vinyl jazz, dark roast ristrettos, and cannoli boards.</p>
+</div>
+<div class="flex flex-col gap-2 pt-1">
+<span class="font-label-sm text-label-sm text-tertiary uppercase tracking-wider">Decor Staging:</span>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Spinning Vinyl Turntable</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Terracotta Ceramics</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Cannoli Pastry Tier</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Olive Branch Garland</span>
+</div>
+</div>
+</div>
+<div class="mt-6 pt-4 flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Setup Time</span>
+<span class="font-label-md text-label-md text-on-surface">40 minutes prior</span>
+</div>
+<button class="select-btn px-5 py-2 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-primary hover:text-on-primary transition-all" onclick="selectTheme('Vintage Italian Espresso', '$440 / booking', this)" type="button">
+            Select This Theme
+          </button>
+</div>
+</article>
+<!-- Card 6: Midnight Starlight -->
+<article class="theme-card relative rounded-2xl bg-surface-container-lowest p-5 flex flex-col justify-between shadow-sm hover:shadow-md transition-all duration-300" data-category="celebrations" data-theme-id="theme-starlight">
+<div class="flex flex-col gap-space-md">
+<div class="relative w-full h-56 rounded-xl overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Enchanting nighttime coffee truck experience, glowing amber brass lanterns, steaming mugs of spiced artisanal chai with star anise, a gourmet tabletop s'mores roasting station, deep twilight sky with starry accents." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkfsUeSDyR9HoL8BrSgxau_LCIzdDuFt11GBVrG2c_KnVWlpm-DA3soQqd3j25gFO4VHbuyOvLFwGtzwg6d0P96FMX23fb_y9c3vHBXaWFsAsRQ3e8CZ3ZZgzwxqjkGfXtdib_U8JJXi4TkFcGNpU3mL5i9SrlskWHDcUkPndvKWeThrcdKEdo94SMqc-2wawngLiNvAk33ko4_DybRG0oakPXSE6mWpDKxIoeVWj7fHlAshMUcwW4"/>
+<div class="absolute top-3 left-3 bg-inverse-surface text-inverse-on-surface font-label-sm text-label-sm uppercase tracking-wider px-3 py-1 rounded-full shadow-sm">
+              Dusk &amp; Evening
+            </div>
+<div class="absolute bottom-3 right-3 bg-surface/90 backdrop-blur-md px-3 py-1 rounded-full font-label-sm text-label-sm text-on-surface">
+              Up to 50 guests
+            </div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-md text-headline-md text-on-surface">Midnight Starlight</h3>
+<span class="font-label-lg text-label-lg text-primary">$460</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2">Intimate twilight gathering featuring warm hurricane brass lamps, simmering spiced chai vats, table torches, and artisanal s'mores roasting kits.</p>
+</div>
+<div class="flex flex-col gap-2 pt-1">
+<span class="font-label-sm text-label-sm text-tertiary uppercase tracking-wider">Decor Staging:</span>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Brass Hurricane Lanterns</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">S'mores Flame Pots</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Spiced Chai Station</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Amber Glow Lighting</span>
+</div>
+</div>
+</div>
+<div class="mt-6 pt-4 flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Setup Time</span>
+<span class="font-label-md text-label-md text-on-surface">50 minutes prior</span>
+</div>
+<button class="select-btn px-5 py-2 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-primary hover:text-on-primary transition-all" onclick="selectTheme('Midnight Starlight', '$460 / booking', this)" type="button">
+            Select This Theme
+          </button>
+</div>
+</article>
+</div>
+</section>
+<!-- Interactive Custom Theme Studio -->
+<section class="w-full bg-surface-container-low px-gutter-desktop py-space-xl">
+<div class="max-w-[1200px] mx-auto flex flex-col gap-space-xl">
+<div class="flex flex-col max-w-2xl">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider">Design Your Own Vibe</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Custom Theme Studio</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Have a specific wedding palette, brand color scheme, or private retreat motif? Configure your personalized caravan setup below.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl">
+<!-- Configuration Form (7 cols) -->
+<div class="lg:col-span-7 flex flex-col gap-space-lg bg-surface-container-lowest p-8 rounded-2xl shadow-sm">
+<!-- Occasion Input -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface" for="customOccasion">Event Occasion / Purpose</label>
+<input class="w-full px-4 py-3 rounded-xl bg-surface text-on-surface font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary transition-all" id="customOccasion" placeholder="e.g. Garden Wedding Reception, Startup Launch" type="text" value="Sunrise Anniversary Brunch"/>
+</div>
+<!-- Color Swatches -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface">Primary Color Accent Palette</label>
+<div class="flex flex-wrap items-center gap-space-sm" id="paletteSelector">
+<button class="palette-option p-1.5 rounded-full ring-2 ring-primary flex items-center gap-1 bg-surface-container cursor-pointer transition-all" data-color-name="Terracotta &amp; Sage" data-swatch-1="#c94b28" data-swatch-2="#35675a" type="button">
+<span class="w-6 h-6 rounded-full bg-primary-container inline-block"></span>
+<span class="w-6 h-6 rounded-full bg-secondary inline-block"></span>
+</button>
+<button class="palette-option p-1.5 rounded-full flex items-center gap-1 bg-surface-container hover:ring-2 hover:ring-outline cursor-pointer transition-all" data-color-name="Oatmeal &amp; Driftwood" data-swatch-1="#ebe8e3" data-swatch-2="#615b55" type="button">
+<span class="w-6 h-6 rounded-full bg-surface-container-high inline-block"></span>
+<span class="w-6 h-6 rounded-full bg-tertiary inline-block"></span>
+</button>
+<button class="palette-option p-1.5 rounded-full flex items-center gap-1 bg-surface-container hover:ring-2 hover:ring-outline cursor-pointer transition-all" data-color-name="Dusk Amber &amp; Obsidian" data-swatch-1="#ffb5a1" data-swatch-2="#1c1c19" type="button">
+<span class="w-6 h-6 rounded-full bg-primary-fixed-dim inline-block"></span>
+<span class="w-6 h-6 rounded-full bg-on-surface inline-block"></span>
+</button>
+<button class="palette-option p-1.5 rounded-full flex items-center gap-1 bg-surface-container hover:ring-2 hover:ring-outline cursor-pointer transition-all" data-color-name="Eucalyptus &amp; Mint" data-swatch-1="#35675a" data-swatch-2="#b8eedc" type="button">
+<span class="w-6 h-6 rounded-full bg-secondary inline-block"></span>
+<span class="w-6 h-6 rounded-full bg-secondary-container inline-block"></span>
+</button>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1" id="selectedPaletteText">Selected: Terracotta &amp; Sage Accent</span>
+</div>
+<!-- Lighting Style -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface">Caravan Lighting Setup</label>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm" id="lightingStyleGroup">
+<label class="flex items-center gap-2 p-3.5 rounded-xl bg-surface cursor-pointer hover:bg-surface-container transition-all">
+<input checked="" class="accent-primary w-4 h-4" name="lightingStyle" type="radio" value="Vintage Edison Festoon Bulbs"/>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Edison Bulbs</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Warm bistro glow</span>
+</div>
+</label>
+<label class="flex items-center gap-2 p-3.5 rounded-xl bg-surface cursor-pointer hover:bg-surface-container transition-all">
+<input class="accent-primary w-4 h-4" name="lightingStyle" type="radio" value="Delicate Fairy Lights"/>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Fairy Lights</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Enchanted canopy</span>
+</div>
+</label>
+<label class="flex items-center gap-2 p-3.5 rounded-xl bg-surface cursor-pointer hover:bg-surface-container transition-all">
+<input class="accent-primary w-4 h-4" name="lightingStyle" type="radio" value="Minimalist Warm Lamps"/>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Minimalist</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Under-counter bar</span>
+</div>
+</label>
+</div>
+</div>
+<!-- Sign Board Script -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface" for="customBoardMessage">Wooden Sign Chalkboard Inscription</label>
+<input class="w-full px-4 py-3 rounded-xl bg-surface text-on-surface font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary transition-all" id="customBoardMessage" placeholder="e.g. Welcome to Sarah &amp; Julian's Day" type="text" value="BREWED WITH LOVE • EST. 2024"/>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Hand-lettered by our visual artisan onto the cedar van facade bar.</span>
+</div>
+<!-- Special Request Notes -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface" for="customNotes">Special Atmosphere or Dietary Requests</label>
+<textarea class="w-full px-4 py-3 rounded-xl bg-surface text-on-surface font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary resize-none transition-all" id="customNotes" placeholder="Specify preferred music genres, floral species to avoid, or branded coffee cups..." rows="3"></textarea>
+</div>
+<div class="pt-2">
+<button class="w-full py-3.5 rounded-full bg-primary text-on-primary font-label-lg text-label-lg shadow-sm hover:brightness-105 transition-all" onclick="applyCustomStudioTheme()" type="button">
+              Save Bespoke Theme Configuration
+            </button>
+</div>
+</div>
+<!-- Live Preview Board (5 cols) -->
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm flex flex-col gap-space-md sticky top-28">
+<div class="flex items-center justify-between pb-3">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Live Staging Preview</span>
+<span class="font-label-sm text-label-sm bg-secondary/10 text-secondary px-2.5 py-0.5 rounded-full">Caravan Spec 04</span>
+</div>
+<!-- Wooden Sign Simulator -->
+<div class="relative w-full rounded-xl bg-surface-variant p-6 flex flex-col items-center justify-center text-center shadow-inner min-h-[160px] overflow-hidden">
+<div class="absolute inset-0 opacity-15 bg-[radial-gradient(#1c1c19_1px,transparent_1px)] [background-size:12px_12px]"></div>
+<div class="relative z-10 flex flex-col items-center">
+<span class="font-label-sm text-label-sm text-primary tracking-widest uppercase mb-1">Cafe on Wheels Caravan</span>
+<p class="font-headline-sm text-headline-sm text-on-surface tracking-wide max-w-xs uppercase" id="previewSignBoardText">
+                  BREWED WITH LOVE • EST. 2024
+                </p>
+<div class="w-16 h-0.5 bg-primary/40 my-2"></div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Live-Edge Timber Counter</span>
+</div>
+</div>
+<!-- Specification Highlights -->
+<div class="flex flex-col gap-space-sm pt-2">
+<div class="flex items-center justify-between font-body-sm text-body-sm py-1.5">
+<span class="text-on-surface-variant">Occasion Styling</span>
+<span class="font-label-md text-label-md text-on-surface" id="previewOccasionText">Sunrise Anniversary Brunch</span>
+</div>
+<div class="flex items-center justify-between font-body-sm text-body-sm py-1.5">
+<span class="text-on-surface-variant">Color Theme</span>
+<span class="font-label-md text-label-md text-on-surface" id="previewPaletteText">Terracotta &amp; Sage</span>
+</div>
+<div class="flex items-center justify-between font-body-sm text-body-sm py-1.5">
+<span class="text-on-surface-variant">Illumination Style</span>
+<span class="font-label-md text-label-md text-on-surface" id="previewLightingText">Vintage Edison Festoon Bulbs</span>
+</div>
+<div class="flex items-center justify-between font-body-sm text-body-sm py-1.5">
+<span class="text-on-surface-variant">Custom Staging Fee</span>
+<span class="font-label-md text-label-md text-primary">$450 base</span>
+</div>
+</div>
+<!-- Notice Callout -->
+<div class="p-4 rounded-xl bg-surface-container flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[20px] shrink-0 mt-0.5">park</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Our team handles delivery, setup, botanical arrangement, and electrical hookups. All decor materials are reusable, sustainable, or compostable.
+              </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Step-by-Step Experience Journey -->
+<section class="w-full px-gutter-desktop py-space-xl">
+<div class="max-w-[1200px] mx-auto flex flex-col gap-space-lg">
+<div class="flex flex-col items-center text-center gap-space-xs max-w-xl mx-auto">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">How It Unfolds</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">The Caravan Experience Flow</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-space-md pt-space-sm">
+<div class="bg-surface-container-lowest p-6 rounded-2xl flex flex-col gap-space-sm shadow-sm">
+<span class="font-headline-lg text-headline-lg text-secondary/40 font-bold">01</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Curate Theme</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Select from our 6 signature aesthetic themes or design your own customized caravan decor.</p>
+</div>
+<div class="bg-surface-container-lowest p-6 rounded-2xl flex flex-col gap-space-sm shadow-sm">
+<span class="font-headline-lg text-headline-lg text-secondary/40 font-bold">02</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Route &amp; Spot</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Specify parking coordinates, park permissions, or private estate driveways for seamless positioning.</p>
+</div>
+<div class="bg-surface-container-lowest p-6 rounded-2xl flex flex-col gap-space-sm shadow-sm">
+<span class="font-headline-lg text-headline-lg text-secondary/40 font-bold">03</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Seasonal Menu</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Tailor espresso roasts, signature drinks like lavender cortados, and fresh artisanal bakery pairings.</p>
+</div>
+<div class="bg-surface-container-lowest p-6 rounded-2xl flex flex-col gap-space-sm shadow-sm">
+<span class="font-headline-lg text-headline-lg text-secondary/40 font-bold">04</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Day-of Service</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">We arrive 45 minutes prior, fire up the commercial lever machine, string the lights, and pour pure joy.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Sticky Mobile / Bottom Journey Bar -->
+<div class="w-full bg-surface-container-lowest py-4 px-gutter-desktop shadow-lg sticky bottom-0 z-40">
+<div class="max-w-[1200px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[22px]">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface">
+          Current Selection: <strong class="font-label-lg text-label-lg text-primary" id="bottomCurrentTheme">Proposal &amp; Romance</strong>
+</span>
+</div>
+<div class="flex items-center gap-space-md w-full sm:w-auto">
+<a class="px-5 py-2.5 rounded-full bg-surface-container text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-all text-center" data-path="menu" href="#">
+          Explore Drink Menu
+        </a>
+<a class="flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-6 py-2.5 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-sm hover:brightness-105 transition-all text-center" data-path="route-planner" href="#">
+<span>Continue to Route Planner</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<script>
+    // Tab Filtering Logic
+    const filterTabs = document.querySelectorAll('.filter-tab');
+    const themeCards = document.querySelectorAll('#themesGrid .theme-card');
+
+    filterTabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        const filter = tab.getAttribute('data-filter');
+        
+        // Update active tab styles
+        filterTabs.forEach(t => {
+          t.classList.remove('bg-on-surface', 'text-surface');
+          t.classList.add('bg-surface-container-lowest', 'text-on-surface-variant');
+        });
+        tab.classList.remove('bg-surface-container-lowest', 'text-on-surface-variant');
+        tab.classList.add('bg-on-surface', 'text-surface');
+
+        // Filter cards
+        themeCards.forEach(card => {
+          const category = card.getAttribute('data-category');
+          if (filter === 'all' || category === filter) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Theme Selection Function
+    function selectTheme(themeName, priceString, buttonElement) {
+      // Clear ring from all cards
+      themeCards.forEach(card => {
+        card.classList.remove('ring-2', 'ring-primary');
+        const btn = card.querySelector('.select-btn');
+        if (btn) {
+          btn.textContent = 'Select This Theme';
+          btn.classList.remove('bg-primary', 'text-on-primary');
+          btn.classList.add('bg-surface-container-high', 'text-on-surface');
+        }
+        // Remove active badge if exists
+        const badge = card.querySelector('.active-badge-tag');
+        if (badge) badge.remove();
+      });
+
+      // Highlight selected
+      const currentCard = buttonElement.closest('.theme-card');
+      if (currentCard) {
+        currentCard.classList.add('ring-2', 'ring-primary');
+      }
+
+      buttonElement.textContent = 'Selected';
+      buttonElement.classList.remove('bg-surface-container-high', 'text-on-surface');
+      buttonElement.classList.add('bg-primary', 'text-on-primary');
+
+      // Update Top and Bottom banners
+      const titleDisplay = document.getElementById('selectedThemeDisplayTitle');
+      const priceDisplay = document.getElementById('selectedThemeDisplayPrice');
+      const bottomDisplay = document.getElementById('bottomCurrentTheme');
+
+      if (titleDisplay) titleDisplay.textContent = themeName;
+      if (priceDisplay) priceDisplay.textContent = priceString;
+      if (bottomDisplay) bottomDisplay.textContent = themeName;
+    }
+
+    // Interactive Custom Studio Preview Updaters
+    const occasionInput = document.getElementById('customOccasion');
+    const previewOccasionText = document.getElementById('previewOccasionText');
+    if (occasionInput && previewOccasionText) {
+      occasionInput.addEventListener('input', (e) => {
+        previewOccasionText.textContent = e.target.value || 'Custom Occasion';
+      });
+    }
+
+    const boardInput = document.getElementById('customBoardMessage');
+    const previewSignBoardText = document.getElementById('previewSignBoardText');
+    if (boardInput && previewSignBoardText) {
+      boardInput.addEventListener('input', (e) => {
+        previewSignBoardText.innerHTML = e.target.value.toUpperCase() || 'CUSTOM INSCRIPTION';
+      });
+    }
+
+    // Palette Options
+    const paletteButtons = document.querySelectorAll('.palette-option');
+    const previewPaletteText = document.getElementById('previewPaletteText');
+    const selectedPaletteText = document.getElementById('selectedPaletteText');
+
+    paletteButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        paletteButtons.forEach(b => b.classList.remove('ring-2', 'ring-primary'));
+        btn.classList.add('ring-2', 'ring-primary');
+        const colorName = btn.getAttribute('data-color-name');
+        if (previewPaletteText) previewPaletteText.textContent = colorName;
+        if (selectedPaletteText) selectedPaletteText.textContent = `Selected: ${colorName} Accent`;
+      });
+    });
+
+    // Lighting Style Radio
+    const lightingRadios = document.querySelectorAll('input[name="lightingStyle"]');
+    const previewLightingText = document.getElementById('previewLightingText');
+    lightingRadios.forEach(radio => {
+      radio.addEventListener('change', (e) => {
+        if (e.target.checked && previewLightingText) {
+          previewLightingText.textContent = e.target.value;
+        }
+      });
+    });
+
+    function applyCustomStudioTheme() {
+      const customName = (occasionInput && occasionInput.value) ? `Bespoke: ${occasionInput.value}` : 'Bespoke Theme';
+      selectTheme(customName, '$450 / booking', document.querySelector('.select-btn'));
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low mt-space-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="max-w-[1200px] mx-auto px-gutter-desktop py-space-xl"><div class="grid grid-cols-1 md:grid-cols-4 gap-space-xl"><div class="md:col-span-1 flex flex-col gap-space-sm"><div class="flex items-center gap-space-sm"><span class="font-headline-sm text-headline-sm text-on-surface">Cafe on Wheels</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">An artisanal, boutique mobile cafe housed within a curated vintage caravan. Sun-drenched mornings, meticulously crafted espresso, and bespoke hospitality on wheels.</p></div><div class="flex flex-col gap-space-sm"><h4 class="font-label-lg text-label-lg text-on-surface">Experience</h4><div class="flex flex-col gap-space-xs"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="themes" href="#">Curated Themes</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="menu" href="#">Seasonal Menu</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="route-planner" href="#">Caravan Tracker</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="bookings" href="#">Private Reservations</a></div></div><div class="flex flex-col gap-space-sm"><h4 class="font-label-lg text-label-lg text-on-surface">Connect &amp; Visit</h4><div class="flex flex-col gap-space-xs text-on-surface-variant font-body-sm text-body-sm"><p>Caravan Flagship: Roaming Metro Hubs</p><p>espresso@cafeonwheels.co</p><p>+1 (555) 328-9433</p><p class="text-secondary font-label-md text-label-md mt-space-xs">Active Beacon: Parked at Pine &amp; 5th</p></div></div><div class="flex flex-col gap-space-sm"><h4 class="font-label-lg text-label-lg text-on-surface">Journal &amp; Social</h4><p class="font-body-sm text-body-sm text-on-surface-variant">Follow our morning journey and daily brewing coordinates.</p><div class="flex items-center gap-space-sm"><a aria-label="Location" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:bg-secondary hover:text-on-secondary transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">location_on</span></a><a aria-label="Notifications" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:bg-secondary hover:text-on-secondary transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">notifications</span></a><a aria-label="Share" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:bg-secondary hover:text-on-secondary transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">share</span></a></div></div></div><div class="mt-space-xl pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md"><p class="font-body-sm text-body-sm text-on-surface-variant">© 2024 Cafe on Wheels. Pure Craft Coffee &amp; Vintage Caravan Experiences.</p><div class="flex items-center gap-space-lg font-label-sm text-label-sm text-on-surface-variant"><a class="hover:text-on-surface" href="#">Privacy Policy</a><a class="hover:text-on-surface" href="#">Terms of Service</a><a class="hover:text-on-surface" href="#">Caravan Specs</a></div></div></div></footer></body></html>
